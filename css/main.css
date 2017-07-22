@@ -351,6 +351,18 @@ html {
   margin-bottom:1.72rem;
 }
 
+.header a {
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+#contact a {
+    color: white;
+    font-weight: 900;
+}
+
 #faq p{
   padding-bottom: 0.75rem;
 }
