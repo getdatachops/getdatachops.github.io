@@ -1,1 +1,6 @@
-This will be my main pitch, wall of text. The home template will be different than the course template, and I'll figure all that out soon...
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---

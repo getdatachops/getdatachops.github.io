@@ -1,1 +1,35 @@
-theme: jekyll-theme-minimal
+title: Get Data Chops
+email: getdatachops@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Content site for Get Data Chops, an opportunity to get to know us and get
+  resources to your team to inspire and empower them.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: getdatachops
+github_username:  getdatachops
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+collections:
+  offers:
+    defaults:
+      - scope:
+        path: ""
+        type: offer
+        values:
+          layout: page
